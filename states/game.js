@@ -7,5 +7,24 @@ module.exports = {
     userStats: {},
     quit: false,
     newGame: false,
-    loadGame: false
+    loadGame: false,
+    quests: [],
+    playerInventory: [
+        /**
+         * {
+         * id,
+         * name,
+         * type,
+         * value,
+         * quantity,
+         * description
+         * stats,
+         * inUse,
+         * }
+         */
+    ],
+    otherInventory: {
+        name: '',
+        items: []
+    },
 }
